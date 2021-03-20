@@ -1,0 +1,29 @@
+{
+  "name": "node-06-restserver",
+  "version": "1.0.0",
+  "description": "NodeJS rest server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiassalicru/node-06-restserver.git"
+  },
+  "keywords": [],
+  "author": "Matias Salicrú",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matiassalicru/node-06-restserver/issues"
+  },
+  "homepage": "https://github.com/matiassalicru/node-06-restserver#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
