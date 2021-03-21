@@ -1,6 +1,6 @@
 {
   "name": "node-06-restserver",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "NodeJS rest server",
   "main": "index.js",
   "scripts": {
