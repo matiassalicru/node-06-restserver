@@ -4,9 +4,8 @@
   "description": "NodeJS rest server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index",
-    "start": "node index"
+    "dev": "nodemon src",
+    "start": "node src"
   },
   "repository": {
     "type": "git",
@@ -21,7 +20,9 @@
   "homepage": "https://github.com/matiassalicru/node-06-restserver#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "winston": "^3.3.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
