@@ -14,4 +14,10 @@ module.exports = {
     //Se suele definir la versión de nuestra API
     prefix: "/api/v1",
   },
+  log: {
+    level: process.env.LOG_LEVEL,
+  },
+  swagger: {
+    path: "/documentation",
+  },
 };
